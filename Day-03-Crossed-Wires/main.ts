@@ -49,7 +49,4 @@ const distance = Math.min(...[...crossedPoints].map(point =>
         input[1].findIndex(p => p == point)
 )) + 2
 
-//    51347 : too low, so is 51349
-// so is 112236
-
 console.log(nearestPoint, distance)
